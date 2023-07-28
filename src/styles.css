@@ -25,6 +25,7 @@ p {
 }
 .discription {
   text-align: left;
+  margin: 20px;
 }
 .row {
   padding: 20px;
@@ -33,4 +34,9 @@ p {
 .title {
   font-size: 30pt;
   color: var(--third-color);
+}
+.email {
+  font-size: 24pt !important;
+  padding: 30px;
+  color: var(--primary-color);
 }
