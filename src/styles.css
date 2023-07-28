@@ -34,9 +34,29 @@ p {
 .title {
   font-size: 30pt;
   color: var(--third-color);
+  text-align: center;
 }
 .email {
   font-size: 24pt !important;
   padding: 30px;
   color: var(--primary-color);
+}
+.btn-primary {
+  font-size: 20px !important;
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.btn-primary:hover {
+  color: var(--primary-color) !important;
+  background-color: var(--secondary-color) !important;
+  font-weight: bold !important;
+}
+footer {
+  background-color: var(--secondary-color);
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2pt solid var(--primary-color);
+  border-radius: 20px;
 }
