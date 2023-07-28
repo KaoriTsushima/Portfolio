@@ -13,7 +13,9 @@
   .language-name {
     font-size: 17pt !important;
   }
-  p {
+  .text,
+  .description,
+  .email {
     font-size: 11pt !important;
   }
 }
@@ -34,12 +36,14 @@
   font-size: 30pt;
   color: var(--third-color);
 }
-p {
-  font-size: 18pt !important;
-}
-.discription {
+
+.description {
   text-align: left;
+  font-size: 18pt;
   margin: 20px;
+}
+.text {
+  font-size: 18pt;
 }
 .row {
   padding: 20px;
@@ -85,4 +89,8 @@ footer {
   padding: 20px;
   border: 2pt solid var(--primary-color);
   border-radius: 20px;
+}
+.photo {
+  min-height: 400px;
+  object-fit: cover;
 }
