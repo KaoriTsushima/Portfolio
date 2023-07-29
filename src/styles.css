@@ -4,12 +4,6 @@
   --third-color: rgb(101, 7, 37);
 }
 
-@media (max-width: 574px) {
-  .container h3 {
-    font-size: 25pt !important;
-  }
-}
-
 .body-container {
   text-align: center;
 }
@@ -22,8 +16,8 @@
   font-size: 80pt;
   color: var(--primary-color);
 }
-.container h3 {
-  font-size: 50pt;
+.project-name {
+  font-size: 40pt;
   color: var(--third-color);
 }
 
