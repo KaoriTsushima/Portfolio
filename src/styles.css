@@ -5,18 +5,13 @@
 }
 @media (max-width: 574px) {
   .name {
-    font-size: 25pt !important;
+    font-size: 32pt !important;
   }
   .container h3 {
-    font-size: 15pt !important;
+    font-size: 23pt !important;
   }
   .language-name {
-    font-size: 17pt !important;
-  }
-  .text,
-  .description,
-  .email {
-    font-size: 11pt !important;
+    font-size: 25pt !important;
   }
 }
 
