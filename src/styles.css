@@ -77,3 +77,6 @@ footer {
   min-height: 400px;
   object-fit: cover;
 }
+.links {
+  font-size: 18pt;
+}
